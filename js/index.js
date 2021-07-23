@@ -49,5 +49,5 @@ function getData(){
 	if(isEmpty)
 		return false;
 	else
-		alert(`Registered! \n\nFirst Name: ${firstname} \nLast Name: ${lastname}\nEmail: ${email}\nPassword: ${"*".repeat(password.length)}`);
+		alert(`Registered! \n\nFirst Name: ${firstname.value} \nLast Name: ${lastname.value}\nEmail: ${email.value}\nPassword: ${"*".repeat(password.value.length)}`);
 }
