@@ -27,12 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot-1440.jpg)
+![](./images/screenshot-375.jpg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://dragon-s1.github.io/SignUp-Form_Frontend-Mentor/)
 
 ## My process
 
@@ -41,8 +42,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
+- Responsive Design
 
 ### What I learned
 
