@@ -24,14 +24,18 @@
 		</div>
 
 		<div class="right">
-			<div class="free">Try it free 7 days then $20/mo. thereafter</div>
+			<div class="free"><span>Try it free 7 days</span> then $20/mo. thereafter</div>
 			<form action="">
-				<input id="firstname" type="text" placeholder="First Name" autocomplete="off">
-				<input id="lastname" type="text" placeholder="Last Name" autocomplete="off">
-				<input id="email" type="email" placeholder="Email Address" autocomplete="off">
-				<input id="password" type="password" placeholder="Password" autocomplete="off">
+				<label for="firstname" hidden >First Name</label>
+				<input name="firstname" id="firstname" type="text" placeholder="First Name" autocomplete="off">
+				<label for="lastname" hidden >Last Name</label>
+				<input name="lastname" id="lastname" type="text" placeholder="Last Name" autocomplete="off">
+				<label for="email" hidden >Email</label>
+				<input name="email" id="email" type="email" placeholder="Email Address" autocomplete="off">
+				<label for="password" hidden >Password</label>
+				<input name="password" id="password" type="password" placeholder="Password" autocomplete="off">
 				<button type="submit" >Claim your free trial</button>
-				<p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+				<p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
 			</form>
 		</div>
 	</div>
