@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Dragon-S1/SignUp-Form_Frontend-Mentor)
-- Live Site URL: [Add live site URL here](https://dragon-s1.github.io/SignUp-Form_Frontend-Mentor/)
+- Solution URL: [Link](https://github.com/Dragon-S1/SignUp-Form_Frontend-Mentor)
+- Live Site URL: [Link](https://dragon-s1.github.io/SignUp-Form_Frontend-Mentor/)
 
 ## My process
 
