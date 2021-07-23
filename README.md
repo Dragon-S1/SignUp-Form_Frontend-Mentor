@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Dragon-S1/SignUp-Form_Frontend-Mentor)
 - Live Site URL: [Add live site URL here](https://dragon-s1.github.io/SignUp-Form_Frontend-Mentor/)
 
 ## My process
@@ -43,9 +43,12 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Responsive Design
+- Java Script Form Submission
 
 ### What I learned
 
+- Receiving Data from form using javascript
+- Changing CSS styles using javascript
 
 
 ## Author

@@ -139,7 +139,26 @@ body {
 			text-decoration: unset;
 		}
 	}
+
+	.error {
+		display: none;
+		justify-content: end;
+		color: var(--primary-red);
+		font-weight: 600;
+		font-style: italic;
+		padding-right: 1.3em;
+		margin-top: -0.8em;
+		font-size: 0.61em;
+	}
+
+	.error::before{
+		content: url(../images/icon-error.svg);
+		position: absolute;
+		display: block;
+		translate: -2.5em -4.2em;
+	}
 }
+
 
 @media screen and (max-width: 420px) {
 	body{
@@ -272,6 +291,24 @@ body {
 				font-weight: 700;
 				text-decoration: unset;
 			}
+		}
+
+		.error {
+			width: 100%;
+			display: none;
+			justify-content: end;
+			color: var(--primary-red);
+			font-weight: 600;
+			font-style: italic;
+			margin-top: -0.8em;
+			font-size: 0.61em;
+		}
+	
+		.error::before{
+			content: url(../images/icon-error.svg);
+			position: absolute;
+			display: block;
+			translate: -1em -4.1em;
 		}
 	}
 }
