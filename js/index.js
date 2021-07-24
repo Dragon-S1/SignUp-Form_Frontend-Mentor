@@ -5,6 +5,8 @@ function getData(){
 	password = document.getElementById('password');
 	error = document.getElementsByClassName("error");
 	var isEmpty = false;
+
+	var regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$/;
 	
 	if(firstname.value === ''){
 		error[0].style.display = "flex";
@@ -30,6 +32,13 @@ function getData(){
 		error[2].style.display = "flex";
 		isEmpty = true;
 		email.style.border = "2px solid hsl(0, 100%, 74%)"
+		error[2].textContent = "Email connot be empty";
+	}
+	else if(!email.value.match(regex)){
+		error[2].style.display = "flex";
+		isEmpty = true;
+		email.style.border = "2px solid hsl(0, 100%, 74%)"
+		error[2].textContent = "Looks like this is not an email";
 	}
 	else{
 		error[2].style.display = "none";
