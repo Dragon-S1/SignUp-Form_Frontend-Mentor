@@ -219,20 +219,11 @@ body {
 			input {
 				padding: 1.1em 1.3em;
 				margin: 0.6em;
-
-				&:focus, :active{
-					outline: none;
-					border: 1px solid #888;
-				}
 			}
 	
 			button {
 				padding: 1.2em 1em;
 				margin: 0.6em;
-	
-				&:focus, :active{
-					outline: none;
-				}
 			}
 		}
 	

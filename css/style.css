@@ -259,16 +259,9 @@ body {
     padding: 1.1em 1.3em;
     margin: 0.6em;
   }
-  .right form input:focus, .right form input :active {
-    outline: none;
-    border: 1px solid #888;
-  }
   .right form button {
     padding: 1.2em 1em;
     margin: 0.6em;
-  }
-  .right form button:focus, .right form button :active {
-    outline: none;
   }
   .right p {
     font-size: 0.66em;
