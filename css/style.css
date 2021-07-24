@@ -126,8 +126,9 @@ body {
   font-size: 0.9em;
 }
 
-.right form input:focus {
-  outline: #888 solid 1px;
+.right form input:focus, .right form input :active {
+  outline: none;
+  border: 1px solid #888;
 }
 
 .right form button {
@@ -146,7 +147,7 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-.right form button:focus {
+.right form button:focus, .right form button :active {
   outline: none;
 }
 

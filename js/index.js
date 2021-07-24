@@ -9,41 +9,41 @@ function getData(){
 	if(firstname.value === ''){
 		error[0].style.display = "flex";
 		isEmpty = true;
-		firstname.style.outline = "hsl(0, 100%, 74%) solid 2px"
+		firstname.style.border = "2px solid hsl(0, 100%, 74%)"
 	}
 	else{
 		error[0].style.display = "none";
-		firstname.style.outline = "#888 solid 1px"
+		firstname.style.border = "1px solid #888"
 	}
 	
 	if(lastname.value === ''){
 		error[1].style.display = "flex";
 		isEmpty = true;
-		lastname.style.outline = "hsl(0, 100%, 74%) solid 2px"
+		lastname.style.border = "2px solid hsl(0, 100%, 74%)"
 	}
 	else{
 		error[1].style.display = "none";
-		lastname.style.outline = "#888 solid 1px"
+		lastname.style.border = "1px solid #888"
 	}
 
 	if(email.value === ''){
 		error[2].style.display = "flex";
 		isEmpty = true;
-		email.style.outline = "hsl(0, 100%, 74%) solid 2px"
+		email.style.border = "2px solid hsl(0, 100%, 74%)"
 	}
 	else{
 		error[2].style.display = "none";
-		email.style.outline = "#888 solid 1px"
+		email.style.border = "1px solid #888"
 	}
 
 	if(password.value === ''){
 		error[3].style.display = "flex";
 		isEmpty = true;
-		password.style.outline = "hsl(0, 100%, 74%) solid 2px"
+		password.style.border = "2px solid hsl(0, 100%, 74%)"
 	}
 	else{
 		error[3].style.display = "none";
-		password.style.outline = "#888 solid 1px"
+		password.style.border = "1px solid #888"
 	}
 
 	if(isEmpty)

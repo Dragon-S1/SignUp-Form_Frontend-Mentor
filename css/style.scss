@@ -97,8 +97,9 @@ body {
 			color: var(--neutral-darkblue);
 			font-size: 0.9em;
 
-			&:focus{
-				outline: #888 solid 1px;
+			&:focus, :active{
+				outline: none;
+				border: 1px solid #888;
 			}
 		}
 
@@ -116,7 +117,7 @@ body {
 			cursor: pointer;
 			-webkit-tap-highlight-color: transparent;
 
-			&:focus{
+			&:focus, :active{
 				outline: none;
 			}
 		}
